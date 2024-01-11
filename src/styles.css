@@ -1,1 +1,46 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  header {
+    background-color: #343a40;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  section {
+    margin-right: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #007bff;
+    transition: background-color 0.3s;
+  }
+  
+  nav a:hover {
+    background-color: #0056b3;
+  }
+  
+  router-outlet {
+    margin: 20px;
+  }
